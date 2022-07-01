@@ -1,0 +1,479 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "drinkinggame demo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayerIntent",
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.FirstName",
+              "samples": [
+                "{names}"
+              ],
+              "multipleValues": {
+                "enabled": true
+              }
+            }
+          ],
+          "samples": [
+            "we are {names}",
+            "the players are {names}",
+            "{names}"
+          ]
+        },
+        {
+          "name": "GameIntent",
+          "slots": [
+            {
+              "name": "difficulty",
+              "type": "Difficulty",
+              "samples": [
+                "we want a {difficulty} game",
+                "i want a {difficulty} game",
+                "maybe {difficulty}",
+                "difficulty {difficulty} ",
+                "{difficulty}",
+                "on {difficulty}",
+                "on level {difficulty}",
+                "we want to play {difficulty}"
+              ]
+            },
+            {
+              "name": "time",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "we want {time} times",
+                "we want {time} rounds",
+                "we want {time}",
+                "{time}",
+                "we like to play {time} rounds",
+                "rounds {time}",
+                "like {time} rounds",
+                "{time} rounds",
+                "we want to play {time} rounds"
+              ]
+            },
+            {
+              "name": "game",
+              "type": "Game",
+              "samples": [
+                "we want to play {game}",
+                "we want {game}",
+                "{game} please",
+                "{game}"
+              ]
+            }
+          ],
+          "samples": [
+            "{time} rounds of {game} on {difficulty}",
+            "we would like to play {game} on {difficulty}",
+            "we want to play {game}",
+            "i want to play {game}",
+            "{time} rounds of {game}",
+            "{game}",
+            "i want to play {time} rounds",
+            "maybe {time}",
+            "the game should be {difficulty} and should last {time}",
+            "{difficulty}",
+            "difficulty {difficulty}",
+            "maybe {time} rounds",
+            "on {difficulty}",
+            "level {difficulty}",
+            "{time}",
+            "{time} rounds",
+            "we want to play {time} rounds",
+            "we want to play {difficulty}",
+            "on level {difficulty}",
+            "the game should be {difficulty} and should last {time} rounds"
+          ]
+        },
+        {
+          "name": "PlayingIntent",
+          "slots": [],
+          "samples": [
+            "start game",
+            "start the game",
+            "another",
+            "another one",
+            "next one",
+            "next question",
+            "next",
+            "start",
+            "begin",
+            "go on",
+            "bring it in",
+            "bring it",
+            "go",
+            "lets go",
+            "come on",
+            "save",
+            "safe",
+            "bring it on",
+            "sure",
+            "i am",
+            "yes i am",
+            "we are",
+            "for sure",
+            "yes",
+            "yes we are",
+            "ready",
+            "we are ready"
+          ]
+        },
+        {
+          "name": "CorrectionIntent",
+          "slots": [
+            {
+              "name": "userInput",
+              "type": "rightOrwrong"
+            }
+          ],
+          "samples": [
+            "maybe {userInput}",
+            "could be {userInput}",
+            "it could be {userInput}",
+            "answer is {userInput}",
+            "the answer is {userInput}",
+            "i think its {userInput}",
+            "its {userInput}",
+            "it is {userInput}",
+            "{userInput}"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "ExplainIntent",
+          "slots": [
+            {
+              "name": "game",
+              "type": "Game"
+            }
+          ],
+          "samples": [
+            "What are the rules of {game}",
+            "What games are there"
+          ]
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "what did you say",
+            "repeat that",
+            "say that again",
+            "again",
+            "what was that",
+            "could you repeat that",
+            "repeat"
+          ]
+        },
+        {
+          "name": "SettingsIntent",
+          "slots": [
+            {
+              "name": "einstellungen",
+              "type": "settingType",
+              "samples": [
+                "change {einstellungen}",
+                "i want to change {einstellungen}",
+                "{einstellungen}"
+              ]
+            }
+          ],
+          "samples": [
+            "adjust {einstellungen} settings",
+            "adjust settings",
+            "change {einstellungen} settings",
+            "{einstellungen} settings",
+            "change settings",
+            "I want to change the settings",
+            "Settings"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "hard"
+              }
+            },
+            {
+              "name": {
+                "value": "intermediate"
+              }
+            },
+            {
+              "name": {
+                "value": "easy"
+              }
+            }
+          ],
+          "name": "Difficulty"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "wrong",
+                "synonyms": [
+                  "false"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "right",
+                "synonyms": [
+                  "true"
+                ]
+              }
+            }
+          ],
+          "name": "rightOrwrong"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Would you rather"
+              }
+            },
+            {
+              "name": {
+                "value": "Never have I ever"
+              }
+            },
+            {
+              "name": {
+                "value": "Truth or Dare"
+              }
+            },
+            {
+              "name": {
+                "value": "True or False"
+              }
+            }
+          ],
+          "name": "Game"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "game"
+              }
+            },
+            {
+              "name": {
+                "value": "player"
+              }
+            }
+          ],
+          "name": "settingType"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "PlayerIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.FirstName",
+              "elicitationRequired": true,
+              "confirmationRequired": true,
+              "prompts": {
+                "confirmation": "Confirm.Slot.1529325234121.136606279069",
+                "elicitation": "Elicit.Slot.849997535327.771962448884"
+              }
+            }
+          ]
+        },
+        {
+          "name": "GameIntent",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.1166110206050"
+          },
+          "slots": [
+            {
+              "name": "difficulty",
+              "type": "Difficulty",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1166110206050.1578876729347"
+              }
+            },
+            {
+              "name": "time",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1166110206050.705661495355"
+              }
+            },
+            {
+              "name": "game",
+              "type": "Game",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1255831106040.1507186890615"
+              }
+            }
+          ]
+        },
+        {
+          "name": "SettingsIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "einstellungen",
+              "type": "settingType",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1262252110523.622249642154"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Confirm.Intent.522969683288",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Are {names} correct ?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.1166110206050",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "so you want to play {time} rounds of {game} on difficulty {difficulty}"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1166110206050.1578876729347",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "on which difficulty do you want to play, the options are easy, intermediate and hard "
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1166110206050.705661495355",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "how many rounds do you want to play ?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1255831106040.1507186890615",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What game do you want to play?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.849997535327.771962448884",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "oh no ... tell me who wants to play"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.479563741945.592369673569",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "are {names} correct ?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.520885350500",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "are {names} correct ?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.1529325234121.136606279069",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "are {names} correct ?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1262252110523.622249642154",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "you can adjust the settings for the game or change the players. What settings would you like to change?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "20"
+}

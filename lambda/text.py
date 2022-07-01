@@ -1,0 +1,126 @@
+difficulty_drinks = ["For difficulty easy we recommend something softer like Beer or Wine.",
+                    "For difficulty advanced we recommend shots like Berliner Luft shot or Mexikaner.",
+                    "For difficulty hard we recommend longdrinks like Vodka Bull or Whiskey Cola."]
+
+trueOrfalse = ["Keine Fragen mehr verfügbar!",
+                "Electrons move faster than the speed of light.", "false wrong",
+                "The Mona Lisa was stolen from the Louvre in 1911.", "true right",
+                "There is no snow on Minecraft.", "false wrong",
+                "Light travels in a straight line.", "true right",
+                "Emus can’t fly.", "true right",
+                '<say-as interpret-as="spell-out">www</say-as> stands for world wanted web',"false wrong",
+                "Samsung is the biggest technology company in South Korea", "true right",
+                "The animal on the Porsche logo is a cat", "false wrong",
+                "Marie Curie was the first woman to win a Nobel Prize", "true right",
+                "Doctor Pepper was the first soft drink in space", "false wrong",
+                "Mr Potato Head from Toy Story was the first toy to be advertised on television", "true right",
+                "The famous festival Woodstock hosted over 350 thousand fans in 1969", "true right",
+                "Luxembourg is the smallest country in the world", "false wrong",
+                "An octopus has three hearts", "true right",
+                'According to the <voice name="Marlene"><lang xml:lang="de-DE">Bayrisches Reinheitsgebot</lang></voice> from 1516 only barley, yeast, and water were allowed in beer',"false wrong"
+                ]
+
+joker = ["All girls have to drink!",
+        "All guys have to drink!",
+        "Everyone that came with white sneakers drinks!",
+        'Stand up!<break time="1s"/>  Last person drinks!',
+        'Freeze!<break time="1s"/> Whoever moved has to drink!',
+        "Everyone drinks!"
+        "Youngest player drinks!",
+        "Oldest Player drinks!",
+        "shortest player drinks!",
+        "tallest player drinks",
+        'Seven Heaven!<break time="1s"/>  Last person drinks!',
+        "all blondes have to drink!",
+        "all singles have to drink!",
+        "all android users have to drink!",
+        "all i phone users have to drink",
+        "all virgins have to drink!",
+        "Everyone with a Beard has to drink",
+        "all non-binaries have to drink",
+        "Everyone with a beer has to drink",
+        "Everyone whos in a relationship has to drink",
+        'Seven Heaven!<break time="1s"/>  Last person is the Medusa. Whoever looks him or her in the eyes has to drink!'
+        ]
+
+neverHaveIEver = ["Leer",
+                "Never have I ever swam naked in someone else's pool",
+                "Never have I ever been kicked out of a bar or club",
+                "Never have I ever thrown up and swallowed it",
+                "Never have I ever stolen anything",
+                "Never have I ever drunk called my ex",
+                "Never have I ever bribed someone",
+                "Never have I ever gone skinny-dipping",
+                "Never have I ever been on TV",
+                "Never have I ever been on a blind date",
+                "Never have I ever lied to the police",
+                "Never have I ever used a fake ID",
+                "Never have I ever clogged somebody else’s toilet",
+                "Never have I ever kissed more than one person in 24 hours",
+                "Never have I ever regifted a gift",
+                "Never have I ever gone viral online",
+                "Never have I ever lied about my age",
+                "Never have I ever been the alibi for a lying friend",
+                "Never have I ever regretted an apology",
+                "Never have I ever stood up a date",
+                "Never have I ever pretended to be sick to get out of something",
+                "Never have I ever given a fake name",
+                "Never have I ever dumped someone over text",
+                "Never have I ever lied on a dating app",
+                "Never have I ever kissed a friend's sibling",
+                "Never have I ever catfished someone",
+                "Never have I ever had a holiday romance",
+                "Never have I ever gone out with a friend's ex",
+                "Never have I ever kissed a celebrity",
+                "Never have I ever DM'd a celebrity",
+                "Never have I ever hitchhiked a ride",
+                "Never have I ever lied in this game",
+                "Never have I ever snuck into a festival or club",
+                "Never have I ever lied about kissing someone",
+                "Never have I ever got a tattoo I regretted",
+                "Never have I ever slept with someone whose name I don't know",
+                "Never have I ever flashed someone",
+                "Never have I ever given or received a lap dance",
+                ""
+                ]
+
+wouldYouRather = ["Leer",
+                "Would you rather have the ability to see 10 minutes into the future or 150 years into the future",
+                "Would you rather be forced to sing along or dance to every single song you hear",
+                "Would you rather find true love today or win the lottery next year",
+                "Would you rather be in jail for five years or be in a coma for a decade",
+                "Would you rather lose your sight or your memories",
+                "Would you rather give up air conditioning and heating for the rest of your life or give up the Internet for the rest of your life",
+                "Would you rather never be able to go out during the day or never be able to go out at night",
+                "Would you rather be 3 meters tall or 20 centimeters tall",
+                "Would you rather be royalty 1,000 years ago or an average person today",
+                "Would you rather vomit on your crush or have your crush vomit on you",
+                "Would you rather wear the same socks for a month or the same underwear for a week",
+                "Would you rather spend a week in the forest or a night in a real haunted house",
+                "Would you rather be half your height or double your weight",
+                "Would you rather listen to one song for the rest of your life or never be allowed to listen to the same song twice",
+                "Would you rather know the date of your death or the cause of your death",
+                "Would you rather go back in time to meet your ancestors or go into the future to meet your great grandchildren",
+                "Would you rather live in a new country every month or never go on vacation again",
+                "Would you rather have front row tickets to a musician you’ve never heard of or listen to your favorite band perform from the parking lot",
+                "Would you rather your parents arrange your marriage or marry your most recent ex",
+                "Would you rather go to jail for a crime you didn’t commit or someone else go to jail for a crime you committed",
+                "Would you rather drink ketchup through a straw or eat mayo with a spoon",
+                "Would you rather drink all the half empty drinks or smoke all the cigarette butts the day after a big crazy party",
+                "Would you rather never sing or never dance again",
+                "Would you rather perform surgery or fly a commercial plane without any qualifications",
+                "Would you rather not shower for a week or 3 times a day for a week",
+                "Would you rather live in a historic war movie or a dystopian future movie",
+                "Would you rather have a pet you’re allergic to or have a pet that hates you",
+                "Would you rather bite off your own toe nails or someone elses finger nails"
+                ]
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
